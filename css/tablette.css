@@ -1,0 +1,21 @@
+@media screen and (max-width: 992px)
+{
+    #filters
+    {
+        flex-wrap: wrap;
+        width: 76%;
+    }
+    .main-filter-title
+    {
+        display: flex;
+        width: 100%;
+    }
+    #hosting
+    {
+        flex-direction: column;
+    }
+    #hosting .marseille
+    {
+        width: 100%;
+    }
+}

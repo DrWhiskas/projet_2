@@ -1,0 +1,118 @@
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 768px)
+{
+    /* HEADER */
+    header .navigation-bar
+    {
+        flex-direction: column;
+    }
+
+    #navigation-bar
+    {
+        flex-direction: column;
+    }
+
+    #logo
+    {
+        margin: auto;
+    }
+    header #search-navigation
+    {
+        border: 1px solid red;
+    } 
+    header #search-navigation a
+    {
+        border: 1px solid black;
+    }
+    header #search-navigation ul li
+    {
+        border: 1px solid blue;
+        width: 50%;
+    }
+
+
+
+    /*** MAIN ***/
+
+    /* SEARCH BOX */
+
+
+
+
+    /* FILTERS */
+    #filters
+    {   
+        flex-wrap: wrap;
+    }
+    
+
+    /* MAIN */
+
+    #hosting
+    {
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .popular
+    {
+        order: 1;
+        width: 100%;
+        margin-bottom: 50px ;
+
+    }
+    .marseille
+    {
+        order: 2;
+        width: 100%;
+    }
+    .marseille .marseille-hosting    
+    {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    /*** ACTIVITIES ***/
+
+    .activities
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activity-solo
+    {
+        width: 79%;
+        height: 265px;
+    }
+    .activity-duo-diff
+    {
+        width: 79%;
+    }
+    .activity-duo-diff .diff-tall
+    {
+        height: 265px;
+    }
+    .activity-duo-diff .diff-small
+    {
+        height: 265px;
+    }
+
+    .activities .activity-duo-same
+    {  
+        width: 79%;
+    }
+        .activities .activity-duo-same
+
+
+
+
+    /*** FOOTER ***/
+
+    .footer_box
+    {
+        flex-direction: column;
+    }
+
+}
+
